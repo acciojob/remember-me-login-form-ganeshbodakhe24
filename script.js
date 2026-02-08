@@ -16,7 +16,7 @@ form.addEventListener("submit",function (event){
 	}
 	else{
         if(localStorage.getItem("login")){
-            		localStorage.removeItem(login);
+            		localStorage.removeItem("login");
         }
 	}
 	
